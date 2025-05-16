@@ -14,9 +14,18 @@ header {
   text-align: center;
 }
 
+.profile-image {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-bottom: 0.5rem;
+}
+
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3.0rem;
 }
 
 section#research {
@@ -34,7 +43,9 @@ section#arts {
 .section-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;       
-  color: #333;               
+  color: #2c3e50;    
+  text-shadow:
+    0rem 0rem 1rem rgb(255, 255, 255);
   border-bottom: 2px solid #2c3e50;  
   padding-bottom: 0.5rem;     
   margin-bottom: 1.5rem;    
